@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 gem 'bootstrap-sass'
-gem 'sprockets'
+gem 'sprockets', '>= 2.12.5'
 gem 'bcrypt'
 gem 'faker'
 gem 'will_paginate'
@@ -16,7 +16,7 @@ gem 'sqlite3'
 gem 'rspec-rails'
 end
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 4.0.5'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -27,7 +27,7 @@ group :test do
 gem 'selenium-webdriver'
 gem 'capybara'
 gem 'factory_girl_rails'
-gem 'cucumber-rails'
+gem 'cucumber-rails', '>= 1.4.1'
 gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 # Use jquery as the JavaScript library
