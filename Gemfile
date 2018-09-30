@@ -24,7 +24,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 group :test do
-gem 'selenium-webdriver'
+gem 'selenium-webdriver', '>= 2.42.0'
 gem 'capybara'
 gem 'factory_girl_rails'
 gem 'cucumber-rails'
