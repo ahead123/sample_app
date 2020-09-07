@@ -27,7 +27,7 @@ group :test do
 gem 'selenium-webdriver'
 gem 'capybara'
 gem 'factory_girl_rails'
-gem 'cucumber-rails'
+gem 'cucumber-rails', '>= 2.1.0'
 gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 # Use jquery as the JavaScript library
