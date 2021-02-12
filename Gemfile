@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.4'
+gem 'rails', '6.0.3.5'
 gem 'bootstrap-sass'
 gem 'sprockets'
 gem 'bcrypt'
@@ -27,7 +27,7 @@ group :test do
 gem 'selenium-webdriver'
 gem 'capybara'
 gem 'factory_girl_rails'
-gem 'cucumber-rails'
+gem 'cucumber-rails', '>= 1.4.3'
 gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 # Use jquery as the JavaScript library
