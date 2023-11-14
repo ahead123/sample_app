@@ -25,9 +25,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 group :test do
 gem 'selenium-webdriver'
-gem 'capybara'
+gem 'capybara', '>= 2.4.2'
 gem 'factory_girl_rails'
-gem 'cucumber-rails'
+gem 'cucumber-rails', '>= 1.4.2'
 gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 # Use jquery as the JavaScript library
